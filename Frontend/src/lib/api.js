@@ -20,7 +20,7 @@ const joinUrl = (base, path) => {
   return `${cleanedBase}${cleanedPath}`;
 };
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+export const API_BASE_URL = 'https://smarthire-backend-oy9u.onrender.com';
 
 const getStoredToken = () => {
   try {
